@@ -15,7 +15,7 @@ Download `content/data.json` to your computer, edit it, and re-upload it along w
       "question": "Title of the problem for people to click on before revealing the answer.", 
       "answer": "Solution to the problem.", 
       "media": [
-        "List of media file names such as \"photo.jpg\". Remember to upload those files to `content/`."
+        "List of media file names such as `photo.jpg`. Remember to upload those files to `content/`."
       ]
     }
   ], 

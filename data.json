@@ -1,17 +1,17 @@
 {
   "audio": [
     {
-      "question": "How to do something?",
-      "answer": "This is how you do it!",
+      "question": "Shure microphone transmitter. Powering on/off.",
+      "answer": "Flip the power switch on the top of the transmitter. If the battery died, please call for assistance for a replacement of the 9V battery.",
       "media": [
-        "demo.jpeg"
+        "shure ulx1 transmitter.png"
       ]
     },
     {
-      "question": "How to do something again?",
-      "answer": "This is how you do it!",
+      "question": "Shure microphone transmitter. Switching channels.",
+      "answer": "The transmitter/receiver combo comes with a preset list of frequencies. Hold MODE to enter group setting, usually left to 1. Click MODE to enter channel setting, click SET to match the channel number on the receiver in the cabinet. Click MODE to exit settings.",
       "media": [
-        "demo.mov"
+        "shure ulx1 transmitter.png"
       ]
     }
   ],

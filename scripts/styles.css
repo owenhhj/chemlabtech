@@ -1,5 +1,5 @@
 body {
-	padding: 10px;
+	padding: 50px 100px;
 }
 
 .home-button-row {
@@ -31,7 +31,7 @@ button {
 }
 
 .issue-answer {
-	display: block;
+	font-size: 1.3rem;
 }
 
 .issue-media {

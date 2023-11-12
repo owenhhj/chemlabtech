@@ -1,3 +1,19 @@
+body {
+	padding: 10px;
+}
+
+.home-button-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+button {
+	font-size: 1.5rem;
+	margin: 5px;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
 .issue-title {
 	cursor: pointer;
 	color: #13294b;

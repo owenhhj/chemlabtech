@@ -30,7 +30,7 @@ Download `content/data.json` to your computer, edit it, and re-upload it along w
 
 ### Repository Structure
 
-Home page `index.html` contains links to subject-specific pages for audio, video, internet, etc.
+Home page `index.html` must be present in the root directory.
 
 `content/` stores all media content to be seen in the documentation, including pictures, videos, etc.
 

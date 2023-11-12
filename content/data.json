@@ -1,0 +1,20 @@
+{
+  "audio": [
+    {
+      "question": "How to do something?",
+      "answer": "This is how you do it!",
+      "media": [
+        "demo.jpeg"
+      ]
+    },
+    {
+      "question": "How to do something again?",
+      "answer": "This is how you do it!",
+      "media": [
+        "demo.mov"
+      ]
+    }
+  ],
+  "video": [],
+  "internet": []
+}

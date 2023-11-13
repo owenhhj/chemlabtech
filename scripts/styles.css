@@ -1,29 +1,39 @@
 body {
-	padding: 50px 100px;
+	padding: 5vh 5vw;
+	font-family: "Arial", sans-serif;
 }
 
-.home-button-row {
+#sub-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.index-buttons-row {
 	display: flex;
 	flex-wrap: wrap;
 }
 
 button {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	margin: 5px;
 	padding: 0.5rem;
 	cursor: pointer;
 }
 
 .issue-title {
+	margin-top: 1rem;
 	cursor: pointer;
 	color: #13294b;
 	font-size: 1.5rem;
 	font-weight: bold;
-	font-family: "Arial", sans-serif;
-	margin-top: 1rem;
+	border-radius: 5px;
 }
 
 .issue-title:hover {
+	border-color: #13294b;
+	border-width: 2px;
+	border-style: solid;
 }
 
 .issue-title > * {
@@ -59,4 +69,6 @@ video {
 
 p {
 	display: block;
+	margin: 0;
+	padding: 5px;
 }

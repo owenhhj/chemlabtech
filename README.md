@@ -1,12 +1,26 @@
 ## Documentation Site for Chemistry Instructional Technology
 
+Originally developed by [Owen He](mailto:haojiah2@illinois.edu) for the Chemistry Learning Center at University of Illinois at Urbana-Champaign.
+
 ### Hosting
 
-Hosted on [cPanel](web.illinois.edu).
+Hosted on [cPanel](https://web.illinois.edu) with the built-in website hosting functionality in the cPanel directory `DEPLOYPATH=/home/chemlabtech/public_html/`.
 
-### Adding/Editing Q&As
+### Deploying (Updating the Website with New Changes Made)
 
-Download `content/data.json` to your computer, edit it, and re-upload it along with pictures and/or videos to show.
+The cPanel directory `DEPLOYPATH` is linked to a remote GitHub repository [here](https://github.com/owenhhj/chemlabtech.git).
+
+To add/edit content, make updates as explained below.
+
+### Adding/Editing Content
+
+Clone and branch the GitHub repo, edit `data.json` according to the format below, push the changes and submit a pull request to `main`.
+
+After your changes are merged into `main`, go to cPanel's GitVersionControl page, click `Manage` --> `Pull or Deploy` --> `Update from Remote` --> `Deploy HEAD Commit`.
+
+The updated code should have been deployed now.
+
+_Note: For GitHub storage saving purposes, the media (images, videos, etc.) you want to show on this website should be manually uploaded to cPanel. Go to cPanel's FileManager and manually upload the files to `public_html/content/`._
 
 ```json
 {
@@ -32,8 +46,8 @@ Download `content/data.json` to your computer, edit it, and re-upload it along w
 
 Home page `index.html` must be present in the root directory.
 
-`content/` stores all media content to be seen in the documentation, including pictures, videos, etc.
+`content/` stores all media content to be seen in the documentation, including images, videos, etc.
 
-`data.json` is the database storing all the troubleshooting Q&As of this website.
+`data.json` is the text database storing all the troubleshooting Q&As of this website.
 
-`scripts/renderer.js` reads the issues in `data.json` and renders them into the website.
+`scripts/renderer.js` reads the issues in `data.json` and renders them into the website, also enabling the click-to-expand feature.

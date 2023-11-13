@@ -46,6 +46,8 @@ const onClickIssueTitle = (issueTitle, issueIndex, issueData) => {
 }
 
 $(document).ready(async () => {
+  $("#sub-header").load("sub-header.html");
+
   let root = $("#root");
   let pageTopic = root.attr("name");
   let data = (await $.getJSON(METADATA_PATH))[pageTopic];

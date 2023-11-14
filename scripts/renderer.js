@@ -23,8 +23,16 @@ const onClickIssueTitle = (issueTitle, issueIndex, issueData) => {
     issueTitle.parent().html(issueTitle);
     return;
   }
+
+  let answerText = "";
+  if (typeof(issueData.answer) === "string") {
+    answerText = `<p>${issueData.answer}</p>`;
+  } else {
+    answerText = issueData.answer.map(sentence => (`<p>${sentence}</p>`)).join('');
+  }
+
   let htmlMedia = "";
-  if (issueData.media.length > 0) {
+  if (!!issueData.media && issueData.media.length > 0) {
     htmlMedia = issueData.media.map(src => {
       let ans = "";
       let fileExtension = src.slice(src.indexOf('.') + 1);
@@ -36,9 +44,10 @@ const onClickIssueTitle = (issueTitle, issueIndex, issueData) => {
       return ans;
     }).join('');
   }
+
   let htmlAnswer = `
     <div class='issue-answer' id="issue-answer-${issueIndex}">
-      <p>${issueData.answer}</p>
+      ${answerText}
       <div class="issue-media">${htmlMedia}</div>
     </div>
   `;

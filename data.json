@@ -9,7 +9,10 @@
     },
     {
       "question": "Shure microphone transmitter. Switching channels.",
-      "answer": "The transmitter/receiver combo comes with a preset list of frequencies. Hold MODE to enter group setting, usually left to 1. Click MODE to enter channel setting, click SET to match the channel number on the receiver in the cabinet. Click MODE to exit settings.",
+      "answer": [
+        "The transmitter/receiver combo comes with a preset list of frequencies.",
+        "Hold MODE to enter group setting, usually left to 1. Click MODE to enter channel setting, click SET to match the channel number on the receiver in the cabinet. Click MODE to exit settings."
+      ],
       "media": [
         "shure ulx1 transmitter.png"
       ]
@@ -19,6 +22,14 @@
 
   ],
   "internet": [
-
+    {
+      "question": "Connect iPad to IllinoisNet without personal NetID",
+      "answer": [
+        "Before connecting, make sure the device has been set up by the IT professional.",
+        "Go to go.illinois.edu/illinoisnetsetup. Enter username as \"device-MacAddressWithoutColons\". Install the downloaded profile in Settings using the password set up by a professional.",
+        "The device will automatically try to connect to IllinoisNet. As it does so, click the \"i\" to the right of IllinoisNet and de-select \"Private WLAN Address\" so the WiFi AP recognizes this device.",
+        "It might take a few minutes to connect if the professional has just finished the set up."
+      ]
+    }
   ]
 }

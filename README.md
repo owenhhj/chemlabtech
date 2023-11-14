@@ -26,8 +26,8 @@ _Note: For GitHub storage saving purposes, the media (images, videos, etc.) you 
 {
   "audio": [
     {
-      "question": "Title of the problem for people to click on before revealing the answer.", 
-      "answer": "Solution to the problem.", 
+      "question": "Title of the issue to click on before revealing the answer.", 
+      "answer": "Solution text. This field may also be an array of sentences to be rendered in paragraphs.", 
       "media": [
         "List of media file names such as `photo.jpg`. Remember to upload those files to `content/`."
       ]

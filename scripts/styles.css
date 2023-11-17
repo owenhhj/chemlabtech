@@ -1,6 +1,11 @@
+@font-face {
+	font-family: "UIUC Source Sans Pro Regular";
+	src: url("../pages/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+
 body {
 	padding: 5vh 5vw;
-	font-family: "Arial", sans-serif;
+	font-family: "UIUC Source Sans Pro Regular", sans-serif;
 }
 
 #sub-header {

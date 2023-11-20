@@ -1,3 +1,5 @@
 /.idea/
 
-/content/*
+/content/*.mp4
+/content/*.mov
+/content/*.m4v

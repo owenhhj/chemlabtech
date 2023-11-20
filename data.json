@@ -3,9 +3,7 @@
     {
       "question": "Shure microphone transmitter. Powering on/off.",
       "answer": "Flip the power switch on the top of the transmitter. If the battery died, please call for assistance for a replacement of the 9V battery.",
-      "media": [
-        "shure ulx1 transmitter.png"
-      ]
+      "media": ["shure ulx1 transmitter.png"]
     },
     {
       "question": "Shure microphone transmitter. Switching channels.",
@@ -13,13 +11,45 @@
         "The transmitter/receiver combo comes with a preset list of frequencies.",
         "Hold MODE to enter group setting, usually left to 1. Click MODE to enter channel setting, click SET to match the channel number on the receiver in the cabinet. Click MODE to exit settings."
       ],
-      "media": [
-        "shure ulx1 transmitter.png"
-      ]
+      "media": ["shure ulx1 transmitter.png"]
+    },
+    {
+      "question": "Shure microphone doesn't output sound after successful pairing.",
+      "answer": [
+        "On the Extron wall panel next to the TV, ensure button 3 OVHD SPKR ON is lit green.",
+        "Twist the VOLUME knob to adjust volume."
+      ],
+      "media": ["extron wall panel.jpeg"]
+    },
+    {
+      "question": "TV has no sound or the volume level is low.",
+      "answer": [
+        "By design, the TV outputs sound from the sound bar mounted beneath it.",
+        "The control buttons are located in the center of the top side. The status indicator lights are located on the left of the front side.",
+        "If the bottom indicator is not on, turn on the sound bar by pressing the power button once.",
+        "If there's no sound, cycle through the inputs for the sound bar by pressing the input source button multiple times until the indicators match the image below.",
+        "Adjust the volume with the volume buttons."
+      ],
+      "media": ["sound bar controls.jpeg", "sound bar input status.jpeg"]
     }
   ],
   "video": [
-
+    {
+      "question": "Mirror iPad to TV.",
+      "answer": [
+        "At the station in the center of the lab, plug power and the lightning to HDMI adaptor into the iPad. The signal goes through the Extron broadcaster and comes out behind the TV.",
+        "On the TV, ensure the current input source is the port that the HDMI cable is plugged in on the left side. See another thread for details.",
+        "On the Extron wall panel, press DISPLAY ON and button 1 LECTERN."
+      ],
+      "media": ["ipad hdmi adaptor.jpeg", "extron wall panel.jpeg"]
+    },
+    {
+      "question": "TV color is inaccurate/faulty.",
+      "answer": [
+        "Reset the entire TV settings using the array of buttons behind the right side.",
+        "The bottom button is the power button for the TV which you might want to avoid clicking when going through the settings."
+      ]
+    }
   ],
   "internet": [
     {

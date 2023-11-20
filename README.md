@@ -20,7 +20,7 @@ After your changes are merged into `main`, go to cPanel's GitVersionControl page
 
 The updated code should have been deployed now.
 
-_Note: For GitHub storage saving purposes, the media (images, videos, etc.) you want to show on this website should be manually uploaded to cPanel. Go to cPanel's FileManager and manually upload the files to `public_html/content/`._
+_Note: For GitHub storage saving purposes, videos you want to show on this website should be manually uploaded to cPanel. Go to cPanel's FileManager and manually upload the files to `public_html/content/`._
 
 ```json
 {

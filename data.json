@@ -49,6 +49,14 @@
         "Reset the entire TV settings using the array of buttons behind the right side.",
         "The bottom button is the power button for the TV which you might want to avoid clicking when going through the settings."
       ]
+    },
+    {
+      "question": "Apple TV prompts software update.",
+      "answer": [
+        "Note: Only use Apple TV wireless mirroring when wired mirroring at the center station is not available.",
+        "Locate the Apple TV remote in the cabinet. Press MENU to skip the update prompt.",
+        "Disconnect your device from Apple TV and reconnect to resume screen mirroring."
+      ]
     }
   ],
   "internet": [

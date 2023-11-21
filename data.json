@@ -35,6 +35,14 @@
   ],
   "video": [
     {
+      "question": "Extron broadcaster not forwarding signal.",
+      "answer": [
+        "The optimal signal input/output status of the broadcaster is shown below.",
+        "If the indicator lights do not match, unplug the power cord of the broadcaster (or alternatively switch off the power of the entire rack) and reconnect. The broadcaster should re-configure itself after reboot."
+      ],
+      "media": ["cabinet rack.jpeg"]
+    },
+    {
       "question": "Mirror iPad to TV.",
       "answer": [
         "At the station in the center of the lab, plug power and the lightning to HDMI adaptor into the iPad. The signal goes through the Extron broadcaster and comes out behind the TV.",

@@ -6,7 +6,7 @@ Originally developed by [Owen He](mailto:haojiah2@illinois.edu) for the Chemistr
 
 Hosted on [cPanel](https://web.illinois.edu) with the built-in website hosting functionality in the cPanel directory `DEPLOYPATH=/home/chemlabtech/public_html/`.
 
-### Deploying (Updating the Website with New Changes Made)
+### Deploying
 
 The cPanel directory `DEPLOYPATH` is linked to a remote GitHub repository [here](https://github.com/owenhhj/chemlabtech.git).
 
@@ -14,11 +14,15 @@ To add/edit content, make updates as explained below.
 
 ### Adding/Editing Content
 
-Clone and branch the GitHub repo, edit `data.json` according to the format below, push the changes and submit a pull request to `main`.
+Clone and branch the GitHub repository.
+
+Edit `data.json` according to the format below. Include images in `content/`.
+
+Push the changes and submit a pull request to the `main` branch.
 
 After your changes are merged into `main`, go to cPanel's GitVersionControl page, click `Manage` --> `Pull or Deploy` --> `Update from Remote` --> `Deploy HEAD Commit`.
 
-The updated code should have been deployed now.
+The updated code should have been deployed now. If you do not see the changes in your browser, clear the cache and/or browsing history.
 
 _Note: For GitHub storage saving purposes, videos you want to show on this website should be manually uploaded to cPanel. Go to cPanel's FileManager and manually upload the files to `public_html/content/`._
 
@@ -50,4 +54,4 @@ Home page `index.html` must be present in the root directory.
 
 `data.json` is the text database storing all the troubleshooting Q&As of this website.
 
-`scripts/renderer.js` reads the issues in `data.json` and renders them into the website, also enabling the click-to-expand feature.
+`scripts/renderer.js` reads the issues in `data.json` and renders them into the website, also enabling the click-to-expand/collapse feature.
